@@ -1,0 +1,4 @@
+Run Commands
+
+1. java -classpath .:target/dependency/* Main
+2. java Main.java
