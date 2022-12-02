@@ -31,3 +31,7 @@ PyJava relies on functions to allow the usage of python-like commands. Function 
 All rights to PyJava belong to Starlinkboy.
 This software is intended for educational purposes only.
 
+## Contact
+- Starlinkboy#0159 on Discord
+- Starlinkboy@starlinkboy.cf on Mail
+
