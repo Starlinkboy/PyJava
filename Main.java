@@ -13,18 +13,22 @@ Current Operations:-
  7. time_sleep() - puts the terminal to sleep as per the amount of seconds mentioned in (); Note: Do not use "" inside ();
  8. os_system() - Executes operating commands. 
      -> cls - Usage: os_system("cls") = Clears terminal
+ 9. Color - To add color to your text use the following syntax:
+   print(COLOR+"text or variable"+variable+RESET);
+NOTE: If you are using IDEs such as BlueJ, the color and cls functions will not work. It is recommended to use the program in windows terminal or replit.
 */
 
    //Main Function. All Operations to be done here 
   public static void main(String[] args)
     {
-        print("Hi");
-        int b = int_input("Enter number: ");
-        print(b);
-        time_sleep(2);
-        os_system("cls");
-        print(RED+"Example"+RESET);
-        exit();
+        print("Hi"); // basic print
+        String a = input("Enter string: "); //string input
+        int b = int_input("Enter number: "); // integer input
+        print(b);// variable print
+        time_sleep(2); //terminal sleep
+        os_system("cls"); // Clear terminal
+        print(RED+"Example"+RESET); // Color print
+        exit(); //exit terminal
         print("Exit");
     }
 

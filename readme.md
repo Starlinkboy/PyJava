@@ -21,6 +21,9 @@ A versatile way to use python commands in Java however semi-colon( ; ) is still 
 
    Example:
    ``` print(RED+"Hi"+RESET); ```
+
+
+**NOTE: If you are using IDEs such as BlueJ, the color and cls functions will not work. It is recommended to use the program in windows terminal or replit.**
 ## How does it work
 PyJava relies on functions to allow the usage of python-like commands. Function overloading and other such methods are used.
 
